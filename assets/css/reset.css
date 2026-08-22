@@ -4,12 +4,12 @@
 * {
   padding: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.57;
   font-family: "Roboto";
 }
 
@@ -20,14 +20,16 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-size: inherit;
   line-height: 22px;
   color: #000000;
   margin: 0 0 16px;
 }
+
 p:last-child {
   margin-bottom: 0;
 }
+
 h1,
 h2,
 h3,
@@ -82,6 +84,9 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
+  height: auto;
+  
 }
 
 ul {
@@ -95,10 +100,30 @@ ul {
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 1.5rem;
+  max-width: 890px;
+  padding: 0 20px;
 }
 
+.container-header {
+  max-width: 990px;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 3px 12px;
+    border-radius: 0;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn--primary {
+    background: #608d90;
+    color: #ffffff;
+}
 .hidden {
   display: none !important;
 }

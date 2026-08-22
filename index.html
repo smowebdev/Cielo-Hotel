@@ -16,8 +16,8 @@
 </head>
 
 <body>
-	<header id="site-header" class="header">
-		<header class="site-header">
+	<header id="site-header" class="site-header">
+		<div class="container container-header">
 			<div class="site-header__top">
 
 				<div class="site-header__contact">
@@ -40,10 +40,15 @@
 					</div>
 				</div>
 
-				<a href="#" class="site-header__logo">Cielo</a>
+				<a href="#" class="site-header__logo"><img src="./assets/images/logo.png" alt=""></a>
 
 				<div class="site-header__cta">
 					<a href="#book" class="btn btn--primary">BOOK NOW</a>
+					<div class="hambuger-mobile">
+						<span class="lines line-1"></span>
+						<span class="lines line-2"></span>
+						<span class="lines line-3"></span>
+					</div>
 				</div>
 
 			</div>
@@ -59,15 +64,247 @@
 					<li><a href="#gallery" class="site-nav__link">GALLERY</a></li>
 					<li><a href="#contact" class="site-nav__link">CONTACT</a></li>
 				</ul>
+				<div class="site-header__contact site-header__contact-mobile">
+					<a href="tel:8888975959" class="site-header__phone">888.897.5959</a>
+
+					<div class="site-header__social">
+						<a href="#" aria-label="Facebook" class="social-icon">
+							<svg viewBox="0 0 24 24" fill="currentColor">
+								<path
+									d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.25-1.5 1.5-1.5h1.6V4.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2H7.5v3h2.6V21h3.4z" />
+							</svg>
+						</a>
+						<a href="#" aria-label="Instagram" class="social-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<rect x="3" y="3" width="18" height="18" rx="5" />
+								<circle cx="12" cy="12" r="4" />
+								<circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none" />
+							</svg>
+						</a>
+					</div>
+				</div>
 			</nav>
-		</header>
+		</div>
+
 	</header>
 
 	<main id="site-content" class="site-content">
+		<section class="hero-section">
+			<img src="./assets/images/home page1.webp" alt="">
+		</section>
+		<section id="hotel" class="hotel-intro">
+			<div class="container">
+				<div class="hotel-intro__wrapper">
+					<div class="hotel-intro__grid">
 
+						<div class="hotel-intro__media">
+							<div class="hotel-intro__image">
+								<img src="./assets/images/cielo-sign.jpg" alt="Vertical HOTEL sign with cyclist">
+							</div>
+							<div class="hotel-intro__stamp">
+								<img src="assets/images/cielo-stamp.webp" alt="Cielo round stamp logo">
+							</div>
+						</div>
+
+						<div class="hotel-intro__content">
+							<h2 class="hotel-intro__title">We found a buried<br>treasure</h2>
+							<div class="hotel-intro__text">
+								<p>When we first discovered Cielo, it felt like uncovering a time capsule — a forgotten
+									piece of
+									Arizona rich in early mid-century character and stories waiting to be told.<br>
+									We couldn't just kick sand over it and pretend we hadn't seen it. There was too much
+									character here, too much history and too much potential.<br>
+									So, we gave it a new life.<br>
+									Inspired by the timeless charm of Arizona's iconic retro hotels and the unmistakable
+									spirit
+									of the Southwest, we've reimagined Cielo as a place where vintage style meets modern
+									comfort. We've kept the personality, embraced the nostalgia and added everything
+									today's
+									traveler needs to feel right at home.</p>
+							</div>
+							<a href="#hotel" class="btn btn--primary ">MORE</a>
+						</div>
+
+					</div>
+					<div class="hotel-intro__grid hotel-intro__grid--reverse">
+						<div class="hotel-intro__media">
+							<div class="hotel-intro__image">
+								<img src="./assets/images/cielo-bike.jpg" alt="Vertical HOTEL sign with cyclist">
+							</div>
+						</div>
+
+						<div class="hotel-intro__content">
+							<h2 class="hotel-intro__title">Why Cielo?</h2>
+							<div class="hotel-intro__text">
+								<p>When we first discovered Cielo, it felt like uncovering a time capsule — a forgotten
+									piece of
+									Arizona rich in early mid-century character and stories waiting to be told.<br>
+									We couldn't just kick sand over it and pretend we hadn't seen it. There was too much
+									character here, too much history and too much potential.<br>
+									So, we gave it a new life.<br>
+									Inspired by the timeless charm of Arizona's iconic retro hotels and the unmistakable
+									spirit
+									of the Southwest, we've reimagined Cielo as a place where vintage style meets modern
+									comfort. We've kept the personality, embraced the nostalgia and added everything
+									today's
+									traveler needs to feel right at home.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="brand-showcase">
+			<div class="container">
+				<div class="brand-showcase__logo">
+					<img src="./assets/images/logo-page.png" alt="The Cielo Hotel - Refresh Recharge Retreat">
+				</div>
+
+				<div class="brand-showcase__images">
+					<div class="brand-showcase__image">
+						<img src="./assets/images/cielo-smores.jpg" alt="Cielo cocoa mugs with smores">
+					</div>
+					<div class="brand-showcase__image">
+						<img src="./assets/images/cielo-courtyard.jpeg" alt="Cielo hotel courtyard at sunset">
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section id="" class="hotel-intro hotel-intro-bottom">
+			<div class="container">
+				<div class="hotel-intro__wrapper">
+					<div class="hotel-intro__grid hotel-intro__grid--reverse">
+
+						<div class="hotel-intro__media">
+							<div class="hotel-intro__image">
+								<img src="./assets/images/VINTAGE-SOUL..webp" alt="Vertical HOTEL sign with cyclist">
+							</div>
+
+						</div>
+
+						<div class="hotel-intro__content">
+							<h2 class="hotel-intro__title">VINTAGE SOUL. <br>
+								MODERN COMFORT.</h2>
+							<div class="hotel-intro__text">
+								<p>Cielo isn't just about a place to sleep. It's about bringing people together.<br>
+									It's for the creatively inclined, the foodies, the music buffs, the
+									road-trippers, the adventurers and anyone who would rather surround themselves with
+									originality than sameness.<br>
+									From locally inspired art and retro details to good coffee, great music and spaces
+									made for gathering, Cielo celebrates the things that make Southern Arizona
+									wonderfully different.<br>
+									Step outside and the story continues. The Huachuca Mountains rise in the distance,
+									historic Bisbee is down the road, Arizona wine country is within reach, and some of
+									the Southwest's most spectacular<br>
+									landscapes are waiting to be explored.<br>
+									We're proud to be part of Sierra Vista's revival — and even prouder to share this
+									little piece of Arizona with you.
+								</p>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+		</section>
+		<section class="storefront-showcase">
+			<div class="storefront-showcase__image">
+				<img src="./assets/images/cielo-facade.jpg" alt="Cielo Hotel facade with guests at windows">
+			</div>
+
+			<div class="storefront-showcase__caption">
+				<p>We found the treasure. We brought it back to life.
+					<br>Now it's yours to discover.<br>
+					Look up. Stay awhile. Welcome to Cielo.
+				</p>
+			</div>
+		</section>
+		<section id="book" class="newsletter-signup" style="background-image: url(./assets/images/cielo-desert.jpg);">
+			<div class="container">
+				<div class="newsletter-signup__box">
+					<h2 class="newsletter-signup__title">Stay <br>connected</h2>
+					<p class="newsletter-signup__subtitle">Sign up to receive exclusive offers, news, and updates.</p>
+
+					<form class="newsletter-signup__form">
+						<div class="newsletter-signup__fields">
+							<div class="newsletter-signup__field">
+								<input type="text" placeholder="First Name" class="newsletter-signup__input">
+							</div>
+
+							<div class="newsletter-signup__field">
+								<input type="text" placeholder="Last Name" class="newsletter-signup__input">
+							</div>
+
+							<div class="newsletter-signup__field newsletter-signup__field--full">
+								<input type="text" placeholder="ZIP / Postal Code" class="newsletter-signup__input">
+							</div>
+
+							<div class="newsletter-signup__field newsletter-signup__field--full">
+								<input type="email" placeholder="Email Address" class="newsletter-signup__input">
+							</div>
+
+						</div>
+						<input type="submit" value="Join our e-mail group" class="newsletter-signup__button">
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="contact-strip">
+			<div class="container">
+				<div class="contact-strip-wrap">
+					<div class="contact-strip__item">
+						<span>Phone: 888.897.5959</span>
+					</div>
+
+					<div class="contact-strip__item contact-strip__item--brand">
+						<span>Cielo Hotel</span>
+					</div>
+
+					<div class="contact-strip__item">
+						<span>Room Reservations: 888.897.5959</span>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
 	</main>
 
 	<footer class="site-footer" id="site-footer" role="contentinfo">
+		<div class="container">
+			<nav class="site-footer__nav" aria-label="Footer navigation">
+				<ul>
+					<li><a href="/faq">FAQ</a></li>
+					<li><a href="/careers">CAREERS</a></li>
+					<li><a href="/gallery">GALLERY</a></li>
+					<li><a href="/contact">CONTACT</a></li>
+					<li><a href="/privacy">PRIVACY</a></li>
+					<li><a href="/policy">POLICY</a></li>
+					<li><a href="/accessibility">ACCESSIBILITY</a></li>
+					<li><a href="/sitemap">SITEMAP</a></li>
+				</ul>
+			</nav>
+
+			<address class="site-footer__address">
+				Your Address details
+			</address>
+
+			<div class="site-footer__social site-header__social">
+				<a href="#" aria-label="Facebook" class="social-icon">
+					<svg viewBox="0 0 24 24" fill="#fff">
+						<path
+							d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.25-1.5 1.5-1.5h1.6V4.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2H7.5v3h2.6V21h3.4z" />
+					</svg>
+				</a>
+				<a href="#" aria-label="Instagram" class="social-icon">
+					<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+						<rect x="3" y="3" width="18" height="18" rx="5" />
+						<circle cx="12" cy="12" r="4" />
+						<circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none" />
+					</svg>
+				</a>
+			</div>
+		</div>
 
 	</footer>
 	<script type="text/javascript" src="assets/js/jquery-3.5.0.min.js"></script>
