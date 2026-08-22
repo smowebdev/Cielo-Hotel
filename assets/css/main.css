@@ -377,8 +377,7 @@
 }
 
 .site-footer {
-    padding: 3.81vw 0 18.07vw;
-    background: #0d2927;
+padding: clamp(24px, 3.81vw, 50px) 0 clamp(100px, 18.07vw, 200px);    background: #0d2927;
 }
 
 .site-footer__nav ul {
