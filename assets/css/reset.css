@@ -1,0 +1,122 @@
+/*=======================
+        General 
+=======================*/
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto";
+  color: #000000;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0 0 16px;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.33;
+  font-family: "Perpetua";
+}
+
+h1 {
+  font-size: 54px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/*=======================
+       Page Layout
+=======================*/
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1.5rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media (min-width: 1024px) {
+  .hide-pc-header {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-pc {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hide-mb {
+    display: none !important;
+  }
+}
