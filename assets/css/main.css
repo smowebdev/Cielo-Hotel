@@ -541,10 +541,12 @@ padding: clamp(24px, 3.81vw, 50px) 0 clamp(100px, 18.07vw, 200px);    background
     }
 
     .hotel-intro__media {
-        width: 100%;
+        width: 100% !important;
         order: -1 !important;
     }
-
+   .hotel-intro-bottom .hotel-intro__media{
+    order: 2 !important;
+   }
     .hotel-intro__wrapper {
         gap: 45px;
     }
