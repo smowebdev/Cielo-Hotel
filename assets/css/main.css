@@ -267,7 +267,9 @@
 .storefront-showcase {
   position: relative;
 }
-
+.storefront-showcase__image img{
+    width: 100%;
+}
 .storefront-showcase__caption p {
   font-size: clamp(30px, 2.9297vw, 42.1875px);
   letter-spacing: 0;
