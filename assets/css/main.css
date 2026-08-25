@@ -645,8 +645,7 @@
   margin-bottom: clamp(25px, 2.4414vw, 35.1562px);
   gap: clamp(50px, 4.8828vw, 70.3125px);
 }
-.site-footer__brand {
-}
+
 .site-footer__menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -788,10 +787,7 @@
     gap: clamp(10px, 0.9766vw, 14.0625px);
   }
   .site-footer__brand {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   
   }
   .site-footer__address {
     margin-top: clamp(8px, 0.7812vw, 11.25px);
