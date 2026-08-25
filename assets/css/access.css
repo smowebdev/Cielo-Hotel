@@ -152,3 +152,11 @@
     font-size: clamp(14px,1.042vw,20px);
     font-weight: 300;
 }
+
+@media (max-width: 495px) {
+ .hero-circle{
+    display: none;
+ }
+
+
+}
