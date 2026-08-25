@@ -105,10 +105,15 @@ ul {
 .container-header {
   max-width: 1180px;
 }
+:root {
+  --primary-color: #9acad3;
+  --primary-font: "Roboto";
+  --title-font: "Perpetua";
+  --yellow-color: #c2753d;
+}
 @media (max-width: 1200px) {
   .container {
     margin: 0 auto;
-    max-width: 890px;
     padding: 0 20px;
   }
 
@@ -119,19 +124,24 @@ ul {
 
 .btn {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.05em;
-  padding: 3px 12px;
+  padding: 6.5px 12px;
   border-radius: 0;
+  line-height: normal;
   white-space: nowrap;
   border: none;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn--primary {
-  background: #608d90;
+  background: #000;
   color: #ffffff;
+}
+.btn:hover {
+  background: #363535;
 }
 .hidden {
   display: none !important;
