@@ -9,17 +9,17 @@
 }
 
 .site-header__top {
-  padding: 4px 0;
+  padding: max(4px, 0.3906vw) 0;
   display: grid;
-  grid-template-columns: 112px auto 115px;
+  grid-template-columns: max(112px, 10.9375vw) auto max(115px, 11.2305vw);
   align-items: center;
-  gap: 16px;
+  gap: max(16px, 1.5625vw);
 }
 
 .site-header__contact {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: max(16px, 1.5625vw);
   min-width: 0;
 }
 
@@ -28,27 +28,27 @@
 }
 
 .site-header__phone {
-  font-size: 13px;
-  letter-spacing: 0px;
-  line-height: 12px;
+  font-size: max(13px, 1.2695vw);
+  letter-spacing: 0;
+  line-height: max(12px, 1.1719vw);
   text-transform: uppercase;
   color: #fbf6ea;
   font-weight: 400;
   font-family: "Roboto";
   text-align: center;
-  padding: 8px 10px 8px 0px;
-  border-right: 1px solid #618e91;
+  padding: max(8px, 0.7812vw) max(10px, 0.9766vw) max(8px, 0.7812vw) 0;
+  border-right: max(1px, 0.0977vw) solid #618e91;
 }
 
 .site-header__social {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: max(14px, 1.3672vw);
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
+  width: max(20px, 1.9531vw);
+  height: max(20px, 1.9531vw);
   display: block;
 }
 
@@ -66,7 +66,7 @@
   justify-content: center;
 }
 .site-header__logo span {
-  font-size: 10px;
+  font-size: max(10px, 0.9766vw);
   line-height: normal;
   text-transform: uppercase;
   color: var(--yellow-color);
@@ -74,7 +74,7 @@
   font-family: "Roboto";
   text-align: center;
   display: block;
-  letter-spacing: 3px;
+  letter-spacing: max(3px, 0.293vw);
 }
 .site-header__cta {
   display: flex;
@@ -84,11 +84,11 @@
 
 /* --- Main navigation --- */
 .site-nav ul {
-  /* padding: 22px 0 13px 0; */
+  /* padding: max(22px, 2.1484vw) 0 max(13px, 1.2695vw) 0; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: max(30px, 2.9297vw);
   list-style: none;
 }
 
@@ -97,9 +97,9 @@
 }
 
 .site-nav ul li a {
-  font-size: 12px;
-  letter-spacing: 0px;
-  line-height: 12px;
+  font-size: max(12px, 1.1719vw);
+  letter-spacing: 0;
+  line-height: max(12px, 1.1719vw);
   text-transform: uppercase;
   color: #fff;
   font-weight: 400;
@@ -107,11 +107,11 @@
   text-align: center;
   display: block;
   position: relative;
-  padding: 6px 0;
+  padding: max(6px, 0.5859vw) 0;
 }
 @media (min-width: 1200px) {
   .site-nav ul li a {
-    font-size: 13px;
+    font-size: max(13px, 1.2695vw);
   }
 }
 .site-nav ul li a::after {
@@ -120,7 +120,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 1px;
+  height: max(1px, 0.0977vw);
   background: currentColor;
   transform: scaleX(0);
   transform-origin: left;
@@ -145,8 +145,8 @@
 
 .hotel-intro__stamp {
   position: absolute;
-  bottom: -56px;
-  left: -30px;
+  bottom: min(-56px, -5.4688vw);
+   left: min(-15px, -1.4648vw);
   overflow: hidden;
 }
 
@@ -157,7 +157,7 @@
 .hotel-intro__grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
+  gap: max(35px, 3.418vw);
 }
 
 .hotel-intro__media {
@@ -169,20 +169,20 @@
 }
 
 .hotel-intro__title {
-  font-size: 30px;
-  letter-spacing: 0px;
-  line-height: 30px;
+  font-size: max(30px, 2.9297vw);
+  letter-spacing: 0;
+  line-height: max(30px, 2.9297vw);
   color: #173f3c;
   font-family: "Perpetua";
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 19px;
+  margin-bottom: max(19px, 1.8555vw);
 }
 
 .hotel-intro__text {
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 22px;
+  font-size: max(14px, 1.3672vw);
+  letter-spacing: 0;
+  line-height: max(22px, 2.1484vw);
   color: #000000;
   font-weight: 300;
   font-family: "Roboto";
@@ -190,18 +190,18 @@
 
 .hotel-intro {
   background: #f2eddf;
-  padding-top: 63px;
+  padding-top: max(63px, 6.1523vw);
 }
 
 .hotel-intro__content .btn {
-  font-size: 16px;
-  letter-spacing: 0px;
-  line-height: 26px;
+  font-size: max(16px, 1.5625vw);
+  letter-spacing: 0;
+  line-height: max(26px, 2.5391vw);
   color: #f2eddf;
   font-weight: 400;
   font-family: "Roboto";
-  margin-top: 30px;
-  padding: 6.5px 40.5px;
+  margin-top: max(30px, 2.9297vw);
+  padding: max(6.5px, 0.6348vw) max(40.5px, 3.9551vw);
 }
 
 .hotel-intro__grid--reverse .hotel-intro__media {
@@ -215,7 +215,7 @@
 .hotel-intro__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 95px;
+  gap: max(95px, 9.2773vw);
 }
 
 .brand-showcase {
@@ -229,8 +229,8 @@
 
 .brand-showcase__images {
   display: grid;
-  gap: 9px;
-  margin-top: 47px;
+  gap: max(9px, 0.8789vw);
+  margin-top: max(47px, 4.5898vw);
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -251,17 +251,17 @@
   width: 100%;
 }
 .brand-showcase__logo {
-  padding-top: 55px;
+  padding-top: max(55px, 5.3711vw);
 }
 
 .hotel-intro-bottom .hotel-intro__grid {
   align-items: end;
-  gap: 25px;
+  gap: max(25px, 2.4414vw);
 }
 
 .hotel-intro-bottom {
-  padding-top: 42px;
-  padding-bottom: 47px;
+  padding-top: max(42px, 4.1016vw);
+  padding-bottom: max(47px, 4.5898vw);
 }
 
 .storefront-showcase {
@@ -269,9 +269,9 @@
 }
 
 .storefront-showcase__caption p {
-  font-size: 30px;
-  letter-spacing: 0px;
-  line-height: 30px;
+  font-size: max(30px, 2.9297vw);
+  letter-spacing: 0;
+  line-height: max(30px, 2.9297vw);
   color: #fdfcfc;
   font-weight: bold;
   font-family: "Perpetua";
@@ -280,7 +280,7 @@
 
 .storefront-showcase__caption {
   position: absolute;
-  padding: 0 15px;
+  padding: 0 max(15px, 1.4648vw);
   left: 50%;
   bottom: 9.74vw;
   width: 100%;
@@ -290,9 +290,9 @@
 .newsletter-signup__box {
   margin: 0 auto;
   /* background: #fff; */
-  /* border: 1px solid #7f7f7f; */
+  /* border: max(1px, 0.0977vw) solid #7f7f7f; */
   max-width: 43.95vw;
-  padding: 13px 11px;
+  padding: max(13px, 1.2695vw) max(11px, 1.0742vw);
 }
 @media (max-width: 767px) {
   .newsletter-signup__box {
@@ -300,9 +300,9 @@
   }
 }
 .newsletter-signup__title {
-  font-size: 45px;
-  letter-spacing: 0px;
-  line-height: 45px;
+  font-size: max(45px, 4.3945vw);
+  letter-spacing: 0;
+  line-height: max(45px, 4.3945vw);
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
@@ -312,14 +312,14 @@
 }
 
 .newsletter-signup__subtitle {
-  font-size: 11px;
-  letter-spacing: 0px;
+  font-size: max(11px, 1.0742vw);
+  letter-spacing: 0;
   line-height: normal;
   color: #6c6969;
   font-weight: 400;
   font-family: "Roboto";
   text-align: center;
-  margin-bottom: 29px;
+  margin-bottom: max(29px, 2.832vw);
 }
 
 .newsletter-signup {
@@ -332,12 +332,12 @@
 .newsletter-signup__fields {
   display: flex;
   flex-wrap: wrap;
-  gap: 11px 5px;
-  margin-bottom: 13px;
+  gap: max(11px, 1.0742vw) max(5px, 0.4883vw);
+  margin-bottom: max(13px, 1.2695vw);
 }
 
 .newsletter-signup__field {
-  width: calc(50% - 2.5px);
+  width: calc(50% - max(2.5px, 0.2441vw));
 }
 
 .newsletter-signup__field--full {
@@ -346,13 +346,13 @@
 
 .newsletter-signup__field input {
   width: 100%;
-  font-size: 12px;
-  letter-spacing: 0px;
-  line-height: 45px;
+  font-size: max(12px, 1.1719vw);
+  letter-spacing: 0;
+  line-height: max(45px, 4.3945vw);
   font-weight: 400;
   font-family: "Roboto";
-  border: 1px solid #828282;
-  padding: 0 13px;
+  border: max(1px, 0.0977vw) solid #828282;
+  padding: 0 max(13px, 1.2695vw);
   color: #000;
 }
 
@@ -361,8 +361,8 @@
 }
 
 .newsletter-signup__button {
-  font-size: 14px;
-  letter-spacing: 0px;
+  font-size: max(14px, 1.3672vw);
+  letter-spacing: 0;
   line-height: normal;
   color: #ffffff;
   font-weight: 400;
@@ -371,31 +371,31 @@
   background: #0d2927;
   width: 100%;
   text-transform: uppercase;
-  padding: 15px;
+  padding: max(15px, 1.4648vw);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  border: 1px solid transparent;
+  border: max(1px, 0.0977vw) solid transparent;
 }
 
 .newsletter-signup__button:hover {
   color: #0d2927;
-  border: 1px solid #0d2927;
+  border: max(1px, 0.0977vw) solid #0d2927;
   background: #ffffff;
 }
 
 .contact-strip-wrap {
-  padding: 62px 0 10px;
+  padding: max(62px, 6.0547vw) 0 max(10px, 0.9766vw);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: max(20px, 1.9531vw);
 }
 
 .contact-strip__item span {
   display: block;
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 30px;
+  font-size: max(14px, 1.3672vw);
+  letter-spacing: 0;
+  line-height: max(30px, 2.9297vw);
   color: #161819;
   font-weight: 300;
   font-family: "Roboto";
@@ -403,8 +403,8 @@
 }
 
 .contact-strip__item--brand span {
-  font-size: 33px;
-  letter-spacing: 2px;
+  font-size: max(33px, 3.2227vw);
+  letter-spacing: max(2px, 0.1953vw);
   line-height: normal;
   text-transform: uppercase;
   color: #232323;
@@ -418,7 +418,7 @@
 }
 
 .site-footer {
-  padding: 24px 0;
+  padding: max(24px, 2.3438vw) 0;
   background-color: var(--primary-color);
   background-position: right 5.86vw bottom 1.95vw;
   background-repeat: no-repeat;
@@ -428,14 +428,14 @@
 .site-footer__nav ul {
   display: flex;
   align-items: flex-start;
-  gap: 4px;
+  gap: max(4px, 0.3906vw);
   list-style: none;
   flex-direction: column;
 }
 
 .site-footer__nav ul li a {
-  font-size: 12px;
-  letter-spacing: 0px;
+  font-size: max(12px, 1.1719vw);
+  letter-spacing: 0;
   line-height: normal;
   color: #ffffff;
   font-weight: 400;
@@ -444,13 +444,13 @@
 }
 
 .site-footer__address {
-  font-size: 12px;
-  letter-spacing: 0px;
+  font-size: max(12px, 1.1719vw);
+  letter-spacing: 0;
   line-height: normal;
   color: #fff;
   font-weight: 400;
   font-family: "Roboto";
-  margin-top: 8px;
+  margin-top: max(8px, 0.7812vw);
 }
 
 .site-footer__social {
@@ -466,13 +466,13 @@
 @media (max-width: 1200px) {
 .hotel-intro__stamp{
 
-    left: -15px;
+    left: min(-15px, -1.4648vw);
 }
 }
 @media (max-width: 992px) {
   .hambuger-mobile {
     position: absolute;
-    right: 15px;
+    right: max(15px, 1.4648vw);
     top: 50%;
     z-index: 1;
 
@@ -481,15 +481,15 @@
   }
 
   .lines {
-    width: 25px;
-    height: 3px;
+    width: max(25px, 2.4414vw);
+    height: max(3px, 0.293vw);
     background: #000;
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -12.5px;
-    margin-top: -1.5px;
+    margin-left: min(-12.5px, -1.2207vw);
+    margin-top: min(-1.5px, -0.1465vw);
     -webkit-transition: -webkit-transform 200ms;
     transition: -webkit-transform 200ms;
     transition: transform 200ms;
@@ -499,8 +499,8 @@
   }
 
   .line-1 {
-    -webkit-transform: translate3d(0, -8px, 0);
-    transform: translate3d(0, -8px, 0);
+    -webkit-transform: translate3d(0, min(-8px, -0.7812vw), 0);
+    transform: translate3d(0, min(-8px, -0.7812vw), 0);
   }
 
   .line-2 {
@@ -509,8 +509,8 @@
   }
 
   .line-3 {
-    -webkit-transform: translate3d(0, 8px, 0);
-    transform: translate3d(0, 8px, 0);
+    -webkit-transform: translate3d(0, max(8px, 0.7812vw), 0);
+    transform: translate3d(0, max(8px, 0.7812vw), 0);
   }
 
   .hambuger-mobile.exit .line-1 {
@@ -538,11 +538,11 @@
   }
 
   .site-header__top {
-    grid-template-columns: 112px auto;
+    grid-template-columns: max(112px, 10.9375vw) auto;
   }
 
   .site-header__cta {
-    padding-right: 40px;
+    padding-right: max(40px, 3.9062vw);
   }
 
   .site-nav {
@@ -550,17 +550,17 @@
     top: 100%;
     left: 0;
     width: 100%;
-    height: calc(100dvh - 81px);
+    height: calc(100dvh - max(81px, 7.9102vw));
     background: var(--primary-color);
     z-index: 1;
-    border-top: 1px solid #000;
+    border-top: max(1px, 0.0977vw) solid #000;
   }
 
   .site-nav ul {
     flex-direction: column;
     align-items: center;
-    padding: 24px;
-    gap: 12px;
+    padding: max(24px, 2.3438vw);
+    gap: max(12px, 1.1719vw);
   }
 
   .site-header__contact-mobile {
@@ -569,10 +569,10 @@
   }
 
   .hotel-intro__stamp {
-    left: -15px;
+    left: min(-15px, -1.4648vw);
     overflow: hidden;
-    width: 100px;
-    bottom: -30px;
+    width: max(100px, 9.7656vw);
+    bottom: min(-30px, -2.9297vw);
   }
 }
 
@@ -583,7 +583,7 @@
 
   .contact-strip-wrap {
     flex-direction: column;
-    gap: 8px;
+    gap: max(8px, 0.7812vw);
   }
 
   .hotel-intro__media {
@@ -594,7 +594,7 @@
     order: 2 !important;
   }
   .hotel-intro__wrapper {
-    gap: 45px;
+    gap: max(45px, 4.3945vw);
   }
 
   .brand-showcase__images {
@@ -602,16 +602,16 @@
   }
 
   .storefront-showcase__caption {
-    /* bottom: 18px; */
+    /* bottom: max(18px, 1.7578vw); */
   }
 
   .storefront-showcase__caption p {
-    font-size: 16px;
+    font-size: max(16px, 1.5625vw);
     line-height: normal;
   }
 
   .newsletter-signup__title {
-    font-size: 32px;
+    font-size: max(32px, 3.125vw);
     line-height: normal;
   }
 
@@ -620,19 +620,19 @@
   }
 
   .site-footer__nav ul {
-    /* gap: 0 12px; */
+    /* gap: 0 max(12px, 1.1719vw); */
   }
 
   .site-footer__nav {
-    /* margin-bottom: 18px; */
+    /* margin-bottom: max(18px, 1.7578vw); */
   }
 
   .site-header__logo {
-    max-width: 120px;
+    max-width: max(120px, 11.7188vw);
   }
 
   .site-nav {
-    height: calc(100dvh - 91.63px);
+    height: calc(100dvh - max(91.63px, 8.9482vw));
   }
 }
 
@@ -640,56 +640,56 @@
 .site-footer__row {
   display: grid;
   grid-template-columns: 0.3fr auto 0.4fr;
-  margin-bottom: 25px;
-  gap: 50px;
+  margin-bottom: max(25px, 2.4414vw);
+  gap: max(50px, 4.8828vw);
 }
 .site-footer__brand {
 }
 .site-footer__menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: max(12px, 1.1719vw);
   position: relative;
 }
 .site-footer__menu::after,
 .site-footer__menu::before {
   position: absolute;
   content: "";
-  height: 100px;
-  width: 1px;
+  height: max(100px, 9.7656vw);
+  width: max(1px, 0.0977vw);
   background-color: #fff;
   top: 50%;
   transform: translateY(-50%);
 }
 .site-footer__menu::after {
-  right: -25px;
+  right: min(-25px, -2.4414vw);
 }
 .site-footer__menu::before {
-  left: -25px;
+  left: min(-25px, -2.4414vw);
 }
 .site-footer__wrap-menu {
-  margin: 10px 0 0;
+  margin: max(10px, 0.9766vw) 0 0;
 }
 .site-footer__about {
 }
 .site-footer__brand .site-header__logo {
   justify-content: center;
   align-items: flex-start;
-  width: 112px;
+  width: max(112px, 10.9375vw);
 }
 .site-footer__phone {
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 30px;
+  font-size: max(14px, 1.3672vw);
+  letter-spacing: 0;
+  line-height: max(30px, 2.9297vw);
   color: var(--yellow-color);
   font-weight: 700;
   font-family: "Roboto";
   text-align: center;
 }
 .site-footer__nav-heading {
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 30px;
+  font-size: max(14px, 1.3672vw);
+  letter-spacing: 0;
+  line-height: max(30px, 2.9297vw);
   color: var(--yellow-color);
   font-weight: 700;
   font-family: "Roboto";
@@ -699,15 +699,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: max(30px, 2.9297vw);
 }
 .site-footer__bottom p,
 .site-footer__bottom a,
 .site-footer__bottom span {
   margin-bottom: 0;
   color: #fff;
-  font-size: 12px;
-  letter-spacing: 0px;
+  font-size: max(12px, 1.1719vw);
+  letter-spacing: 0;
   line-height: normal;
   color: #ffffff;
   font-weight: 400;
@@ -717,21 +717,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 18px;
+  gap: max(18px, 1.7578vw);
 }
 .site-footer__about-text {
   color: #fff;
-  font-size: 12px;
-  letter-spacing: 0px;
+  font-size: max(12px, 1.1719vw);
+  letter-spacing: 0;
   line-height: 1.7;
   font-weight: 400;
   font-family: "Roboto";
-  max-width: 248px;
+  max-width: max(248px, 24.2188vw);
 }
 .site-footer__about-highlight {
   color: var(--yellow-color);
-  font-size: 12px;
-  letter-spacing: 0px;
+  font-size: max(12px, 1.1719vw);
+  letter-spacing: 0;
   line-height: 1.7;
   font-weight: 700;
   font-family: "Roboto";
@@ -760,7 +760,7 @@
   .site-footer__row {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: max(20px, 1.9531vw);
   }
   .site-footer__menu::after,
   .site-footer__menu::before {
@@ -783,7 +783,7 @@
   }
   .site-footer__bottom .container {
     flex-wrap: wrap;
-    gap: 10px;
+    gap: max(10px, 0.9766vw);
   }
   .site-footer__brand {
     text-align: center;
@@ -792,7 +792,7 @@
     align-items: center;
   }
   .site-footer__address {
-    margin-top: 8px;
+    margin-top: max(8px, 0.7812vw);
   }
   .site-footer__brand .site-header__logo {
     justify-content: center;

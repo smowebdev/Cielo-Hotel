@@ -9,7 +9,7 @@
 
 html {
   font-weight: 400;
-  font-size: 14px;
+  font-size: max(12px, 1.37vw);
   font-family: "Roboto";
 }
 
@@ -21,9 +21,9 @@ body {
 
 p {
   font-size: inherit;
-  line-height: 22px;
+  line-height: inherit;
   color: #000000;
-  margin: 0 0 16px;
+  margin: 0 0 1.56vw;
 }
 
 p:last-child {
@@ -41,27 +41,27 @@ h6 {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: max(12px, 5.27vw);
 }
 
 h2 {
-  font-size: 36px;
+  font-size: max(12px, 3.52vw);
 }
 
 h3 {
-  font-size: 36px;
+  font-size: max(12px, 3.52vw);
 }
 
 h4 {
-  font-size: 18px;
+  font-size: max(12px, 1.76vw);
 }
 
 h5 {
-  font-size: 16px;
+  font-size: max(12px, 1.56vw);
 }
 
 h6 {
-  font-size: 14px;
+  font-size: max(12px, 1.37vw);
 }
 
 a:hover {
@@ -98,12 +98,12 @@ ul {
 =======================*/
 .container {
   margin: 0 auto;
-  max-width: 1180px;
-  padding: 0 20px;
+  max-width: 100%;
+  padding: 0 1.95vw;
 }
 
 .container-header {
-  max-width: 1180px;
+   max-width: 100%;
 }
 :root {
   --primary-color: #9acad3;
@@ -112,22 +112,17 @@ ul {
   --yellow-color: #c2753d;
 }
 @media (max-width: 1200px) {
-  .container {
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+ 
 
-  .container-header {
-    max-width: 990px;
-  }
+
 }
 
 .btn {
   display: inline-block;
-  font-size: 16px;
+  font-size: max(12px, 1.56vw);
   font-weight: 700;
   letter-spacing: 0.05em;
-  padding: 6.5px 12px;
+  padding: 0.63vw 1.17vw;
   border-radius: 0;
   line-height: normal;
   white-space: nowrap;
