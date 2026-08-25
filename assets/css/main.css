@@ -463,7 +463,12 @@
 .hambuger-mobile {
   display: none;
 }
+@media (max-width: 1200px) {
+.hotel-intro__stamp{
 
+    left: -15px;
+}
+}
 @media (max-width: 992px) {
   .hambuger-mobile {
     position: absolute;
