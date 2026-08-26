@@ -464,6 +464,7 @@
 
     .contact-subscribe__heading {
         font-size: 42px;
+        line-height: 1;
     }
 
     .contact-subscribe__input-wrap input {
