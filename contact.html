@@ -56,46 +56,141 @@
 	<main id="site-content" class="site-content">
 		<section class="contact-hero-sec"
 			style="background: url(assets/images/contact-bg.jpg) no-repeat center / cover;">
-			<div class="cs-container">
+			<div class="container">
 				<div class="contact-hero__subheading">come say hello</div>
 				<h1 class="contact-hero__heading">Contact Us</h1>
 				<div class="contact-hero__desc">
-					<p>Questions, plans, or just cu</p>
+					<p>Questions, plans, or just curious? Our door is always open.</p>
+				</div>
+			</div>
+		</section>
+		<section class="contact-main-sec">
+			<div class="container">
+				<div class="contact-main__subheading">
+					we’d love to hear from you
+				</div>
+				<div class="contact-main__header">
+					<div class="left">
+						<h2 class="contact-main__heading">Your Arizona escape starts here.</h2>
+					</div>
+					<div class="right">
+						<div class="contact-main__desc">
+							<p>Whether you have a question, need assistance with a future
+								reservation, or want to discover more about Cielo and Sierra Vista, our team is here to
+								help.
+							</p>
+							<p>For group accommodations, extended stays, government and military travel, or special
+								events, tell us a little about your plans below.</p>
+						</div>
+					</div>
+				</div>
+				<div class="contact-main__box">
+					<div class="left">
+						<div class="contact-main__box-label">
+							FIND YOUR WAY TO CELO
+						</div>
+						<h3 class="contact-main__box-title">
+							Cielo Hotel
+						</h3>
+						<p class="contact-main__box-address">Sierra Vista, Arizona
+							<br />United States
+						</p>
+						<div class="contact-main__box-infos">
+							<div class="contact-main__box-info">
+								<div class="info-label">OPENING</div>
+								<div class="info-value">September 2026</div>
+							</div>
+							<div class="contact-main__box-info">
+								<div class="info-label">RESERVATIONS</div>
+								<div class="info-value">Coming soon</div>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<form class="contact-form">
+							<div class="contact-form__row">
+								<div class="contact-form__field">
+									<label for="first-name">FIRST NAME</label>
+									<input type="text" id="first-name" name="first_name" placeholder="First name" />
+								</div>
+
+								<div class="contact-form__field">
+									<label for="last-name">LAST NAME</label>
+									<input type="text" id="last-name" name="last_name" placeholder="Last name" />
+								</div>
+							</div>
+
+							<div class="contact-form__row">
+								<div class="contact-form__field">
+									<label for="email">EMAIL ADDRESS</label>
+									<input type="email" id="email" name="email" placeholder="you@example.com" />
+								</div>
+
+								<div class="contact-form__field">
+									<label for="phone">PHONE NUMBER</label>
+									<input type="tel" id="phone" name="phone" placeholder="(000) 000-0000" />
+								</div>
+							</div>
+
+							<div class="contact-form__row">
+								<div class="contact-form__field">
+									<label for="reason">HOW CAN WE HELP?</label>
+
+									<select id="reason" name="reason">
+										<option value="" selected disabled>
+											Select a reason
+										</option>
+										<option value="reservation">Reservation</option>
+										<option value="general">General inquiry</option>
+										<option value="partnership">Partnership</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="contact-form__field contact-form__message">
+								<label for="message">TELL US MORE</label>
+
+								<textarea id="message" name="message" placeholder="How can our team help?"></textarea>
+							</div>
+
+							<div class="contact-form__submit">
+								<button type="submit">
+									SEND INQUIRY
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact-subscribe-sec">
+			<div class="container">
+				<div class="contact-subscribe__subheading">stay in the loop</div>
+
+				<div class="contact-subscribe__content">
+					<div class="left">
+						<h2 class="contact-subscribe__heading">A little Cielo
+							in your inbox.</h2>
+					</div>
+					<div class="right">
+						<form class="contact-subscribe__form">
+							<div class="contact-subscribe__input-wrap">
+								<input type="email" name="email" placeholder="Your email address"
+									aria-label="Your email address" required />
+								<button type="submit" aria-label="Subscribe">
+									<img src="assets/images/arrow-right-white.svg" alt="">
+								</button>
+							</div>
+
+							<p class="contact-subscribe__desc">
+								Opening updates, special offers, and stories from Southern Arizona.
+							</p>
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
 	</main>
-
-	<section id="book" class="newsletter-signup" style="background-image: url(./assets/images/cielo-desert.jpg);">
-		<div class="container">
-			<div class="newsletter-signup__box">
-				<h2 class="newsletter-signup__title">Stay Connected</h2>
-				<p class="newsletter-signup__subtitle">Be the first to hear about new opportunities,<br>team news and
-					updates from Cielo Hotel.</p>
-
-				<form class="newsletter-signup__form">
-					<div class="newsletter-signup__fields">
-						<div class="newsletter-signup__field">
-							<input type="text" placeholder="First Name" class="newsletter-signup__input">
-						</div>
-
-						<div class="newsletter-signup__field">
-							<input type="text" placeholder="Last Name" class="newsletter-signup__input">
-						</div>
-
-						<div class="newsletter-signup__field">
-							<input type="email" placeholder="Email Address" class="newsletter-signup__input">
-						</div>
-
-						<div class="newsletter-signup__field">
-							<input type="text" placeholder="ZIP / Postal Code" class="newsletter-signup__input">
-						</div>
-					</div>
-					<input type="submit" value="Join Our Email List" class="newsletter-signup__button">
-				</form>
-			</div>
-		</div>
-	</section>
 
 	<footer class="site-footer" id="site-footer" role="contentinfo">
 		<div class="site-footer__main">
