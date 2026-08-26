@@ -1,0 +1,54 @@
+.contact-hero-sec {
+    min-height: calc(100vh - 77px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 100px 0;
+}
+
+.contact-hero-sec::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(15, 37, 35, 0.5);
+    pointer-events: none;
+}
+
+.cs-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-hero-sec .cs-container {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.contact-hero__subheading {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fffdf7;
+    margin-bottom: 160px;
+}
+
+.contact-hero__heading {
+    font-size: clamp(100px, 10.052vw, 193px);
+    letter-spacing: 1px;
+    color: #fffdf7;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.contact-hero__desc {
+    font-size: 41px;
+    color: #fffdf7;
+    font-weight: bold;
+    font-family: "Perpetua";
+}
+
+.contact-hero__desc p {
+    color: inherit;
+}
