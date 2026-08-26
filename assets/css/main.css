@@ -11,7 +11,11 @@
 .site-header__top {
   padding: clamp(4px, 0.3906vw, 5.625px) 0;
   display: grid;
-  grid-template-columns: clamp(112px, 10.9375vw, 157.5px) auto clamp(115px, 11.2305vw, 161.7188px);
+  grid-template-columns: clamp(112px, 10.9375vw, 157.5px) auto clamp(
+      115px,
+      11.2305vw,
+      161.7188px
+    );
   align-items: center;
   gap: clamp(16px, 1.5625vw, 22.5px);
 }
@@ -36,7 +40,8 @@
   font-weight: 400;
   font-family: "Roboto";
   text-align: center;
-  padding: clamp(8px, 0.7812vw, 11.25px) clamp(10px, 0.9766vw, 14.0625px) clamp(8px, 0.7812vw, 11.25px) 0;
+  padding: clamp(8px, 0.7812vw, 11.25px) clamp(10px, 0.9766vw, 14.0625px)
+    clamp(8px, 0.7812vw, 11.25px) 0;
   border-right: clamp(1px, 0.0977vw, 1.4062px) solid #618e91;
 }
 
@@ -65,7 +70,17 @@
   align-items: center;
   justify-content: center;
 }
-.site-header__logo span {
+.site-header__logo-title {
+  font-size: clamp(14px, 1.3672vw, 19.6875px);
+  letter-spacing: 0;
+  line-height: clamp(22px, 2.1484vw, 30.9375px);
+  color: #fff;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+.site-header__logo-subtitle {
   font-size: clamp(10px, 0.9766vw, 14.0625px);
   line-height: normal;
   text-transform: uppercase;
@@ -146,7 +161,7 @@
 .hotel-intro__stamp {
   position: absolute;
   bottom: clamp(-78.75px, -5.4688vw, -56px);
-   left: clamp(-21.0938px, -1.4648vw, -15px);
+  left: clamp(-21.0938px, -1.4648vw, -15px);
   overflow: hidden;
 }
 
@@ -225,6 +240,7 @@
 .brand-showcase__logo img {
   display: block;
   margin: 0 auto;
+  max-width: clamp(194px, 18.9453vw, 272.8125px);
 }
 
 .brand-showcase__images {
@@ -267,8 +283,8 @@
 .storefront-showcase {
   position: relative;
 }
-.storefront-showcase__image img{
-    width: 100%;
+.storefront-showcase__image img {
+  width: 100%;
 }
 .storefront-showcase__caption p {
   font-size: clamp(30px, 2.9297vw, 42.1875px);
@@ -466,10 +482,9 @@
   display: none;
 }
 @media (max-width: 1200px) {
-.hotel-intro__stamp{
-
+  .hotel-intro__stamp {
     left: clamp(-21.0938px, -1.4648vw, -15px);
-}
+  }
 }
 @media (max-width: 992px) {
   .hambuger-mobile {
@@ -552,7 +567,8 @@
     top: 100%;
     left: 0;
     width: 100%;
-    height: calc(100dvh - clamp(81px, 7.9102vw, 113.9062px));
+    height: 100dvh;
+    /* height: calc(100dvh - clamp(81px, 7.9102vw, 113.9062px)); */
     background: var(--primary-color);
     z-index: 1;
     border-top: clamp(1px, 0.0977vw, 1.4062px) solid #000;
@@ -787,7 +803,6 @@
     gap: clamp(10px, 0.9766vw, 14.0625px);
   }
   .site-footer__brand {
-   
   }
   .site-footer__address {
     margin-top: clamp(8px, 0.7812vw, 11.25px);
@@ -798,7 +813,8 @@
   .site-footer__menu {
     flex: auto;
     width: 100%;
-  }.site-footer__about-text{
+  }
+  .site-footer__about-text {
     max-width: 100%;
   }
 }

@@ -105,6 +105,9 @@ ul {
 .container-header {
    max-width: 1480px;
 }
+.container-home{
+  max-width: clamp(850px, 83.0078vw, 1195.3125px);
+}
 :root {
   --primary-color: #9acad3;
   --primary-font: "Roboto";

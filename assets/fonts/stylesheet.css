@@ -277,3 +277,30 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Dozed Stamp';
+    src: url('DozedStamp-Regular.woff2') format('woff2'),
+        url('DozedStamp-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OzHandicraft BT';
+    src: url('OzHandicraftBT-Roman.woff2') format('woff2'),
+        url('OzHandicraftBT-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zurich LtXCn BT';
+    src: url('ZurichBT-LightExtraCondensed.woff2') format('woff2'),
+        url('ZurichBT-LightExtraCondensed.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
