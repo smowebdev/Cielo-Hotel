@@ -86,7 +86,7 @@
 }
 
 .career-work-sec .work-item h3 {
-    font-size: clamp(20px, 1.622vw, 24px);
+    font-size: clamp(20px, 1.622vw, 23px);
     font-family: var(--primary-font);
     letter-spacing: -1px;
     text-align: center;
@@ -95,7 +95,7 @@
 .career-work-sec .work-item-des p {
     text-align: center;
     line-height: 1.7;
-    font-size: clamp(16, 1.216vw, 18px);
+    font-size: clamp(16px, 1.216vw, 18px);
 }
 
 .career-work-sec .line-height {
