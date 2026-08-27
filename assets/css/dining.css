@@ -252,10 +252,10 @@
         overflow: hidden;
 
     }
-    
-        .dining-garden-sec .garden-right .bg-img {
-            right: 0;
-        }
+
+    .dining-garden-sec .garden-right .bg-img {
+        right: 0;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -308,6 +308,7 @@
     .dinging-stay-sec .stay-form {
         flex-direction: column;
     }
+
     .dining-hero-sec .container .hero-des {
         max-width: unset;
     }
