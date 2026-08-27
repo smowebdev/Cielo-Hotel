@@ -1,0 +1,320 @@
+.dining-hero-sec .container .hero-content {
+    max-width: 52vw;
+}
+
+.dining-hero-sec .container .hero-img img {
+    width: 25%;
+}
+
+.dining-hero-sec .container .hero-des {
+    max-width: 20vw;
+}
+
+.dining-hero-sec .hero-content span {
+    color: #e9e7e7;
+    text-transform: uppercase;
+}
+
+.dining-morning-sec {
+    background-color: #e2d8ce;
+}
+
+.heading-title {
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    letter-spacing: -1px;
+    line-height: 0.9;
+    font-size: clamp(24px, 3.52vw, 50.688px);
+}
+
+.bage-title {
+    color: var(--yellow-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.dining-morning-sec .morning-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+
+}
+
+.dining-morning-sec .morning-row p {
+    line-height: 1.35;
+}
+
+.dining-morning-sec .morning-left .botton-text,
+.garden-row .botton-text {
+    text-transform: uppercase;
+    color: var(--yellow-color);
+    font-weight: 500;
+    font-size: clamp(16px, 1.622vw, 24px);
+}
+
+.dining-morning-sec .morning-left {
+    max-width: 29.784vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0px 20px 20px;
+
+}
+
+.dining-morning-sec .morning-left ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 8px;
+    padding-left: 40px;
+}
+
+.dining-morning-sec .morning-left p {
+    margin-bottom: 0;
+}
+
+.dining-morning-sec .morning-left .morning-left-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.dining-morning-sec .morning-left .morning-left-list img {
+    width: 3rem;
+}
+
+.dining-morning-sec .morning-left .list-right span {
+    color: var(--yellow-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: clamp(16px, 1.622vw, 24px);
+
+}
+
+.dining-morning-sec .morning-left .list-right p {
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.dining-morning-sec .morning-right .morning-right-list {
+    background-color: #041d1c;
+}
+
+.dining-morning-sec .morning-right .bg-img {
+    height: 33vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dining-morning-sec .morning-right .morning-right-list p {
+    color: #fff;
+}
+
+.dining-morning-sec .morning-right .morning-right-list img {
+    width: 3rem;
+    height: 2.5rem;
+}
+
+.dining-morning-sec .morning-right-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.dining-morning-sec .morning-right-item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    gap: 20px;
+}
+
+.dining-morning-sec .morning-right-item p {
+    text-align: center;
+    font-weight: 300;
+    font-size: clamp(12px, 1.081vw, 16px);
+}
+
+.dining-morning-sec .morning-right-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+    width: 1px;
+    background-color: #afaeae;
+}
+
+.dining-morning-sec .morning-right {
+    flex: 1;
+    padding-top: 4px;
+}
+
+.dining-garden-sec {
+    background-color: #e2d8ce;
+}
+
+.dining-garden-sec .garden-row {
+    display: flex;
+    column-gap: 40px;
+    align-items: flex-start;
+    overflow: visible;
+}
+
+.dining-garden-sec .garden-lef {
+    flex: 1;
+}
+
+.dining-garden-sec .garden-right {
+    width: 30.784vw;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.dining-garden-sec .garden-right p {
+    margin-bottom: 0;
+    max-width: 22.784vw;
+    position: relative;
+    z-index: 1;
+}
+
+.dining-garden-sec .garden-right .bg-img {
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    height: 16rem;
+    opacity: 60%;
+    z-index: 0;
+}
+
+.dinging-stay-sec {
+    background-color: #6b8480;
+}
+
+.dinging-stay-sec .stay-form {}
+
+.dinging-stay-sec .dinging-stay-sec-main h2 {
+    font-family: var(--primary-font);
+    font-size: clamp(22px, 2.905vw, 43px);
+}
+
+.dinging-stay-sec .dinging-stay-sec-main {
+    display: flex;
+    gap: 20px;
+}
+
+.dinging-stay-sec .stay-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dinging-stay-sec .stay-form .newsletter-signup__button {
+    width: unset;
+    padding: 0 20px;
+    background: #0d2927;
+}
+
+.dinging-stay-sec .stay-form .newsletter-signup__button:hover {
+    background: #fff;
+    color: #222;
+}
+
+.dinging-stay-sec .stay-form input {
+    line-height: clamp(45px, 4.3945vw, 48.2812px);
+    background: transparent;
+    border: clamp(1px, 0.0977vw, 1.4062px) solid #d4d4d4;
+    color: #d4d4d4;
+}
+
+.dinging-stay-sec .stay-form input::placeholder {
+    color: #d4d4d4;
+}
+
+.dinging-stay-sec .stay-title {
+    max-width: 450px;
+}
+
+@media (max-width: 1800px) {
+    .dining-garden-sec .garden-row {
+        overflow: hidden;
+
+    }
+    
+        .dining-garden-sec .garden-right .bg-img {
+            right: 0;
+        }
+}
+
+@media (max-width: 1199px) {
+    .dining-garden-sec .garden-right p {
+        max-width: unset;
+    }
+}
+
+@media (max-width: 1024px) {
+    .dining-morning-sec .morning-right-item {
+        width: 33.333%;
+    }
+
+    .dining-morning-sec .morning-left {
+        gap: 10px;
+    }
+
+    .dinging-stay-sec .dinging-stay-sec-main {
+        flex-wrap: wrap;
+    }
+
+    .dinging-stay-sec .stay-title {
+        margin: 0 auto;
+        text-align: center;
+        max-width: unset;
+    }
+
+    .dinging-stay-sec .stay-form {
+        width: 100%;
+    }
+
+    .dining-garden-sec .garden-row {
+        flex-direction: column;
+    }
+
+    .dining-garden-sec .garden-right {
+        width: unset;
+    }
+}
+
+@media (max-width: 767px) {
+    .dining-morning-sec .morning-row {
+        flex-direction: column;
+    }
+
+    .dining-morning-sec .morning-left {
+        max-width: unset;
+    }
+
+    .dinging-stay-sec .stay-form {
+        flex-direction: column;
+    }
+    .dining-hero-sec .container .hero-des {
+        max-width: unset;
+    }
+}
+
+@media (max-width: 575px) {
+    .dining-morning-sec .morning-right-item {
+        width: 50%;
+    }
+}
