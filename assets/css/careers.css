@@ -86,7 +86,7 @@
 }
 
 .career-work-sec .work-item h3 {
-    font-size: clamp(20px, 1.622vw, 24px);
+    font-size: clamp(20px, 1.622vw, 23px);
     font-family: var(--primary-font);
     letter-spacing: -1px;
     text-align: center;
