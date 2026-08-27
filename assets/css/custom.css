@@ -348,7 +348,7 @@
 }
 
 .faq-hero-sec {
-    min-height: clamp(540px, 52.734vw, 759.375px);
+    min-height: clamp(500px, 52.734vw, 759.375px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -378,7 +378,7 @@
 }
 
 .faq-hero__heading {
-    font-size: clamp(103px, 10.059vw, 145px);
+    font-size: clamp(43px, 10.059vw, 145px);
     letter-spacing: 0.001em;
     color: #fffdf7;
     line-height: 0.9;
